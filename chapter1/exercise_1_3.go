@@ -8,9 +8,10 @@ import (
 
 func main() {
     data := []string { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k" }
-    start := time.Now()
     experimentSize := 1234567 
-   
+  
+    start := time.Now()
+ 
     for i := 1; i < experimentSize; i++ {
 	s := ""   
 	for j := 1; j < len(data); j++ {
