@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-    for i := 1; i < len(os.Args); i++ {
-        fmt.Printf("%v - %s\n", i, os.Args[i])
+    for index := 1; index < len(os.Args); index++ {
+        fmt.Printf("%v - %s\n", index, os.Args[index])
     }
 }
